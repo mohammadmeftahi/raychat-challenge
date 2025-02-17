@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+  --color-blue-alpha: #5b4dff;
+  --color-purple-alpha: #c8b6fa;
+  --color-purple-beta: #841474;
+  --color-green-alpha: #3cd143;
+  --color-gray-alpha: #e0e0e0;
+  --color-gray-beta: #6a6a6a;
+  --color-gray-gama: #f0f0f0;
+  --color-gray-delta: #bbbbbb;
+  --color-gray-theta: #414141
+  --color-black-alpha: #393939;
+  --shadow-alpha: 0px 2px 4px -2px #1018280f;
+  --shadow-beta: 0px 2px 4px -2px #1018280f, 0px 4px 8px -2px #1018281a;
+}
+
+@font-face {
+  font-family: "IRANSans";
+  src: url("./assets/fonts/IRANSans.woff2") format("woff2"),
+    url("./assets/fonts/IRANSans.ttf") format("truetype");
+}
+
+body {
+  font-family: "IRANSans", sans-serif;
+}
